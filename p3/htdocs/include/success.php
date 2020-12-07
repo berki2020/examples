@@ -1,0 +1,1 @@
+<span style="color: green;">Авторизация прошла успешно!</span>

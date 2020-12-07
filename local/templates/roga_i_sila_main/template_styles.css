@@ -1,0 +1,392 @@
+.slider
+{
+	padding-bottom: 13px;
+}
+/*slider*/
+
+/*news*/
+.news_block
+{
+	background: url("/local/templates/.default/images/dark_bg.png") 0 0 repeat;
+	overflow: hidden;
+	padding: 14px 22px;
+}
+.news_item
+{
+	float: left;
+	margin-left: 8px;
+	width: 300px;
+}
+.news_item:first-child
+{
+	margin-left: 0;
+}
+.news_item img
+{
+	float: left;
+	width: 95px;
+}
+.news_item_description
+{
+	line-height: 1.4em;
+	margin-left: 105px;
+	margin-top: -4px;
+	overflow: hidden;
+	font-size: 0.9em;
+}
+.inverse .news_item_description a:hover
+{
+	color: #999;
+}
+.news_item_date
+{
+	font-family: "PTSans_Italic";
+	font-size: 12px;
+	margin-top: 4px;
+}
+/*x_news*/
+
+/*page_navigation*/
+	.page_nav
+{
+	font-family: "PTSans_Bold";
+	font-size: 22px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.page_nav p
+{
+	font-family: "PTSans_Regular";
+	font-size: 14px;
+	margin-bottom: 0.5em;
+}
+.page_nav a, .page_nav span
+{
+	color: #000;
+	display: inline-block;
+	margin-left: 5px;
+	padding: 1px 9px;
+	vertical-align: middle;
+	zoom: 1;
+}
+.page_nav .current
+{
+	background: black;
+	color: white;
+}
+.page_nav .other
+{
+	margin: 0;
+	padding: 0;
+}
+.page_nav .prev, .page_nav .next
+{
+	background: url("/local/templates/.default/images/sprite.png") no-repeat;
+	height: 15px;
+	padding: 0;
+	width: 9px;
+}
+.page_nav .prev
+{
+	background-position: 0 -80px;
+	margin-right: 8px;
+}
+.page_nav .next
+{
+	background-position: -35px -80px;
+	margin-left: 13px;
+}
+.page_nav .prev:hover
+{
+	background-position: 0 -105px;
+}
+.page_nav .next:hover
+{
+	background-position: -35px -105px;
+}
+/*x_page_navigation*/
+
+/*filter*/
+.filter
+{
+	background: #f6f6f6; /* Old browsers */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWVhZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #f6f6f6 0%, #eaeaea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f6f6f6 0%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f6f6f6 0%,#eaeaea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f6f6f6 0%,#eaeaea 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f6f6f6 0%,#eaeaea 100%); /* W3C */
+	-pie-background: linear-gradient(#f6f6f6, #eaeaea);
+	font-family:"PTSans_Regular", Arial, sans-serif;
+	font-size: 0.857em;
+	padding: 11px 20px;
+}
+.filter select
+{
+	font-family:"PTSans_Regular", Arial, sans-serif;
+	font-size: 14px;
+}
+.filter span{
+	display: inline-block;
+	zoom: 1;
+} 
+.filter input[type="text"]{
+	background-color: white;
+	border: 1px solid #e9e9e9;
+	-moz-border-radius: 4px; /* Firefox */
+ 	-webkit-border-radius: 4px; /* Safari, Chrome */
+ 	-khtml-border-radius: 4px; /* KHTML */
+  	border-radius: 4px; /* CSS3 */
+	line-height: 1.4em;
+	padding: 1px 6px;
+	vertical-align: middle;
+	width: 150px;
+	
+}
+/*x_filter*/
+
+/*banners in catalog*/
+.banner
+{
+	float: left;
+}
+.banner.border_left
+{
+	border-left: 2px solid #ccc;
+}
+.banner.border_bottom
+{
+	border-bottom: 2px solid #ccc;
+}
+/*x_banners in catalog*/
+
+/*detail*/
+	.product_detail
+{
+	border-bottom: 2px solid #f1f1f1;
+	margin: 23px 0 13px;
+	overflow: auto;
+}
+.product_detail h3
+{
+	font-size: 1.4em;
+	margin-bottom: 0.5em;
+}
+
+/***********************************************
+ Слайдер изображений автомобиля
+ — стили из этого блока можно перенести в компонет
+***********************************************/
+.b-product-photo {
+	float: left;
+	margin-top: 8px;
+	margin-left: -602px;
+	width: 600px;
+	text-align: center;
+}
+	.b-product-photo__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+		.b-product-photo__list-item {
+			margin: 0;
+			padding: 0;
+			background: none;
+		}
+			.b-product-photo__list-item__content {
+				margin: 0 auto;
+				max-width: 100%;
+				width: 528px;
+				height: 386px;
+			}
+	.b-product-photo__thumbnail {
+		padding: 10px 0;
+		text-align: center;
+		letter-spacing: -1px;
+		font-size: 1px;
+	}
+		.b-product-photo__thumbnail-item {
+			position: relative;
+			display: inline-block;
+			margin: 0 5px 10px;
+			outline: 0;
+			border: 0;
+			text-decoration: none;
+			font-size: 1px;
+		}
+		.b-product-photo__thumbnail-item.active:before {
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			margin-left: -5px;
+			width: 10px;
+			height: 5px;
+			background: url("/local/templates/.default/images/sprite.png") 0 -130px no-repeat;
+			content: "";
+		}
+			.b-product-photo__thumbnail-item__content {
+				width: 78px;
+				height: 58px;
+				border: 1px solid #d5d5d5;
+			}
+/***********************************************
+ End Слайдер изображений автомобиля
+***********************************************/
+.product_photo
+{
+	float: left;
+	margin-left: -600px;
+	margin-top: 8px;
+	text-align: center;
+	width: 600px;
+}
+.rating
+{
+	text-align: left;
+}
+.price_block
+{
+	margin-bottom: 12px;
+	margin-top: -2px;
+	padding-left: 18px;
+}
+.slide_box
+{
+	border-top: 1px solid #f1f1f1;
+	padding-left: 18px;
+	padding-top: 16px;
+	position: relative;
+}
+.slide_block
+{
+	display: none;
+}
+.slide_panel{
+	cursor: pointer;
+}
+.slide_button
+{
+	background: url("/local/templates/.default/images/controls.png") 2px -229px;
+	cursor: pointer;
+	height: 10px;
+	position: absolute;
+	right: 20px;
+	top: 24px;
+	width: 10px;
+}
+.show .slide_button
+{
+	background-position: -3px -202px;
+}
+.other_view
+{
+	margin: 10px 20px 0 10px;
+}
+.other_view > div
+{
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ie7 .other_view > div
+{
+	display: inline;
+	zoom: 1;
+}
+.other_view .button
+{
+	background: url("/local/templates/.default/images/controls.png") 100px 100px no-repeat;
+	cursor: pointer;
+	height: 31px;
+	width: 31px;
+}
+.other_view .button.prev
+{
+	background-position: -4px 0;
+}
+.other_view .button.next
+{
+	background-position: -53px 0;
+}
+.other_view .button.prev:hover
+{
+	background-position: -108px 0;
+}
+.other_view .button.next:hover
+{
+	background-position: -157px 0;
+}
+.other_view .button.prev.disabled
+{
+	background-position: -4px -156px;
+	cursor: default;
+}
+.other_view .button.next.disabled
+{
+	background-position: -53px -156px;
+	cursor: default;
+}
+.other_items
+{
+	margin:0 5px;
+}
+.other_items>div
+{
+	border: 1px solid #d5d5d5;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+.other_items div.current
+{
+	z-index: expression(runtimeStyle.zIndex = 1, this.innerHTML = "<div class='other_item_current_corner'></div>" + this.innerHTML );
+}
+.other_items img
+{
+	height: 58px;
+	width: 78px;
+}
+.other_items div.current:before, .other_item_current_corner
+{
+	background: url("/local/templates/.default/images/sprite.png") 0 -130px no-repeat;
+	bottom: 100%;
+	content: "";
+	height: 5px;
+	left: 50%;
+	margin-left: -5px;
+	position: absolute;
+	width: 10px;
+}
+.product_detail figcaption
+{
+	border-left: 2px solid #f1f1f1;
+	clear: both;
+	float: left;
+	margin-left: 600px;
+	padding: 0px 0 39px 0px;
+	width: 358px;
+}
+.current_price
+{
+	font-size: 1.714em;
+	margin: 0.1em 0 0.45em;
+}
+.old_price
+{
+	text-decoration: line-through;
+}
+.features
+{
+	color: #000;
+	margin-bottom: 11px;
+}
+.features td:first-child
+{
+	color: #999;
+	padding-bottom: 3px;
+	width: 107px;
+}
+/*x_detail
